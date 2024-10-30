@@ -1,0 +1,151 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "n",
+      "metaData": {
+        "userData": "n"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 30.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "P",
+      "metaData": {
+        "userData": "P"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 4.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "S",
+      "metaData": {
+        "userData": "S"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 8.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Tm",
+      "metaData": {
+        "userData": "Tm"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 100.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Vc",
+      "metaData": {
+        "userData": "Vc"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.03,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Vf",
+      "metaData": {
+        "userData": "Vf"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.03,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "w",
+      "metaData": {
+        "userData": "w"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Chain_Force",
+      "metaData": {
+        "userData": "Chain_Force"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0026179938779914945,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Chain_Velocity",
+      "metaData": {
+        "userData": "Chain_Velocity"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 38197.186342054883,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Depth_of_Cut",
+      "metaData": {
+        "userData": "Depth_of_Cut"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 32.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Cutting_Calculations.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Cutting_Calculations.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Cutting_Calculations.xlsx"
+  }
+}
