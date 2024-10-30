@@ -1,0 +1,337 @@
+{
+  "plugInId": "0ab58c18-5738-45e1-ad06-9f58949248e5",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "Feed_Force",
+      "metaData": {
+        "userData": "Feed_Force"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Newtons",
+      "description": "",
+      "defaultValue": 20.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "MC_Wood",
+      "metaData": {
+        "userData": "MC_Wood"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "Moisture Percentage",
+      "description": "",
+      "defaultValue": 25.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Density_Wood",
+      "metaData": {
+        "userData": "Density_Wood"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Length",
+      "metaData": {
+        "userData": "Length"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "kg/m^3",
+      "description": "",
+      "defaultValue": 550.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Area",
+      "metaData": {
+        "userData": "Area"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "mm^2",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Pitch",
+      "metaData": {
+        "userData": "Pitch"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "mm",
+      "description": "",
+      "defaultValue": 9.525,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Sprocket_Drive_Teeth",
+      "metaData": {
+        "userData": "Sprocket_Drive_Teeth"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 6.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Drive_Sprocket_RPM",
+      "metaData": {
+        "userData": "Drive_Sprocket_RPM"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 3000.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Drive_Sprocket_w",
+      "metaData": {
+        "userData": "Drive_Sprocket_w"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "S_tooth_spacing",
+      "metaData": {
+        "userData": "S_tooth_spacing"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 8.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "MC_Ave",
+      "metaData": {
+        "userData": "MC_Ave"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 20.57,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Density_Ave",
+      "metaData": {
+        "userData": "Density_Ave"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 544.8,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Chain_Speed_Ave",
+      "metaData": {
+        "userData": "Chain_Speed_Ave"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 6.51,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Depth_Ave",
+      "metaData": {
+        "userData": "Depth_Ave"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.362,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Depth_Overload",
+      "metaData": {
+        "userData": "Depth_Overload"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.5,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Chain_Speed",
+      "metaData": {
+        "userData": "Chain_Speed"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Feed_Speed",
+      "metaData": {
+        "userData": "Feed_Speed"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Depth_of_Cut",
+      "metaData": {
+        "userData": "Depth_of_Cut"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cutting_Force",
+      "metaData": {
+        "userData": "Cutting_Force"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Chain_Force",
+      "metaData": {
+        "userData": "Chain_Force"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Motor_Torque",
+      "metaData": {
+        "userData": "Motor_Torque"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cutting_Efficiency",
+      "metaData": {
+        "userData": "Cutting_Efficiency"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "time_of_cut",
+      "metaData": {
+        "userData": "time_of_cut"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cutting_Energy_Required",
+      "metaData": {
+        "userData": "Cutting_Energy_Required"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Calculations.m"
+    },
+    {
+      "plugInIntegral": true,
+      "relativePath": "script.m"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "MatlabPlugInSettings": "{\"UseMultiArrays\":true,\"ConvertSingleDimensionalArrays\":true,\"CaptureOutput\":false,\"ShowMatlabAtStart\":false,\"ClearWorkspaceBeforeRun\":true,\"EnableAppPool\":true,\"MaxParallelSession\":-1,\"IsMatlabVersionSpecified\":false,\"SpecifiedMatLabVersion\":\"\",\"FileName\":null}",
+    "FilePath": null
+  }
+}
