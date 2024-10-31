@@ -1,14 +1,14 @@
 ﻿%inputs
-Feed_Force = 20; %N
-MC_Wood = 25; %moisture percentage
-Density_Wood = 550; %kg/m^3
-Length = 90; %mm
+Feed_Force% = 20; %N
+MC_Wood% = 25; %moisture percentage
+Density_Wood% = 550; %kg/m^3
+Length% = 90; %mm
 Area = Length*Length; %mm^2
-Pitch = 9.525; %mm
-Sprocket_Drive_Teeth = 6;
-Drive_Sprocket_RPM = 3000;
+Pitch% = 9.525; %mm
+Sprocket_Drive_Teeth% = 6;
+Drive_Sprocket_RPM% = 3000;
 Drive_Sprocket_w = Drive_Sprocket_RPM*0.10472;
-S_tooth_spacing = 8;
+S_tooth_spacing% = 8;
 Coefficients = [109.56,-2.39,0.16,-0.62,264.83,62.77,-8.30,0.31;88.24,-2.20,0.15,-0.65,238.61,41.02,-6.68,0.30;43.03,-1.75,0.15,-0.33,131.68,98.63,-6.59,0.37];
 
 %set values

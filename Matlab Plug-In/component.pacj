@@ -36,9 +36,9 @@
       },
       "type": "Double",
       "format": "",
-      "units": "",
+      "units": "kg/m^3",
       "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 550.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -49,22 +49,9 @@
       },
       "type": "Double",
       "format": "",
-      "units": "kg/m^3",
+      "units": "mm",
       "description": "",
-      "defaultValue": 550.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Area",
-      "metaData": {
-        "userData": "Area"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "mm^2",
-      "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 90.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -108,19 +95,6 @@
       "enumAliases": []
     },
     {
-      "name": "Drive_Sprocket_w",
-      "metaData": {
-        "userData": "Drive_Sprocket_w"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
       "name": "S_tooth_spacing",
       "metaData": {
         "userData": "S_tooth_spacing"
@@ -130,71 +104,6 @@
       "units": "",
       "description": "",
       "defaultValue": 8.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "MC_Ave",
-      "metaData": {
-        "userData": "MC_Ave"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 20.57,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Density_Ave",
-      "metaData": {
-        "userData": "Density_Ave"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 544.8,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Chain_Speed_Ave",
-      "metaData": {
-        "userData": "Chain_Speed_Ave"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 6.51,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Depth_Ave",
-      "metaData": {
-        "userData": "Depth_Ave"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.362,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Depth_Overload",
-      "metaData": {
-        "userData": "Depth_Overload"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.5,
       "enumValues": [],
       "enumAliases": []
     }
@@ -272,7 +181,7 @@
       },
       "type": "Double",
       "format": "",
-      "units": "",
+      "units": "Nm",
       "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
