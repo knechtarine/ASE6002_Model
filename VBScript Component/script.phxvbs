@@ -1,5 +1,0 @@
-﻿Option Explicit
-
-Sub Run
-    waste = food * 5
-End Sub
