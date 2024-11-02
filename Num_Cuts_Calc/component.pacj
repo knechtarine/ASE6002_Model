@@ -1,0 +1,177 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "batteryCapacity",
+      "metaData": {
+        "userData": "batteryCapacity"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 5.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "batteryVoltage",
+      "metaData": {
+        "userData": "batteryVoltage"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 20.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Chain_Gauge",
+      "metaData": {
+        "userData": "Chain_Gauge"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.05,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cutting_Efficiency",
+      "metaData": {
+        "userData": "Cutting_Efficiency"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 5.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Standard_Cut_Depth",
+      "metaData": {
+        "userData": "Standard_Cut_Depth"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 4.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Standard_Cut_Length",
+      "metaData": {
+        "userData": "Standard_Cut_Length"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 4.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Time_of_Cut",
+      "metaData": {
+        "userData": "Time_of_Cut"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 7.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Area__mm_2",
+      "metaData": {
+        "userData": "Area__mm_2"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 129.03199999999998,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Battery_Power_Available",
+      "metaData": {
+        "userData": "Battery_Power_Available"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 100.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Energy_Required",
+      "metaData": {
+        "userData": "Energy_Required"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 645.15999999999985,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Number_Of_Cuts",
+      "metaData": {
+        "userData": "Number_Of_Cuts"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 558.00111600223215,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Power",
+      "metaData": {
+        "userData": "Power"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 92.165714285714259,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Number of Cuts Calc.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Number of Cuts Calc.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Number of Cuts Calc.xlsx"
+  }
+}

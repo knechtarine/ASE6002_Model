@@ -1,0 +1,138 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "input1",
+      "metaData": {
+        "userData": "input1"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "input2",
+      "metaData": {
+        "userData": "input2"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Bar_length",
+      "metaData": {
+        "userData": "Bar_length"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 45.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "sawLength",
+      "metaData": {
+        "userData": "sawLength"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 30.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "varCost",
+      "metaData": {
+        "userData": "varCost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 77.364000000000175,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "barCost",
+      "metaData": {
+        "userData": "barCost"
+      },
+      "type": "Double",
+      "format": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 51.304000000000009,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "barWeight",
+      "metaData": {
+        "userData": "barWeight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 2.6999999999999997,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "sawCost",
+      "metaData": {
+        "userData": "sawCost"
+      },
+      "type": "Double",
+      "format": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 26.060000000000173,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "sawWeight",
+      "metaData": {
+        "userData": "sawWeight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 3.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "cost_model.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"cost_model.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "cost_model.xlsx"
+  }
+}

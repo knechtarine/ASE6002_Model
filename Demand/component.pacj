@@ -1,0 +1,190 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "capacity",
+      "metaData": {
+        "userData": "capacity"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 20000.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "fixedCost",
+      "metaData": {
+        "userData": "fixedCost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 350000.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "marginalCost",
+      "metaData": {
+        "userData": "marginalCost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 500.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "marketSize",
+      "metaData": {
+        "userData": "marketSize"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 100000.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "riskTolerance",
+      "metaData": {
+        "userData": "riskTolerance"
+      },
+      "type": "Double",
+      "format": "0.00E+00",
+      "units": "",
+      "description": "",
+      "defaultValue": 1E+100,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "xin1",
+      "metaData": {
+        "userData": "xin1"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 100.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "xin2",
+      "metaData": {
+        "userData": "xin2"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 11.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "xin3",
+      "metaData": {
+        "userData": "xin3"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 16.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "demand",
+      "metaData": {
+        "userData": "demand"
+      },
+      "type": "Double",
+      "format": "0",
+      "units": "",
+      "description": "",
+      "defaultValue": 3907.1482385287086,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "price",
+      "metaData": {
+        "userData": "price"
+      },
+      "type": "Double",
+      "format": "0.000",
+      "units": "",
+      "description": "",
+      "defaultValue": 2012.0587541159582,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "profit",
+      "metaData": {
+        "userData": "profit"
+      },
+      "type": "Double",
+      "format": "0.000",
+      "units": "",
+      "description": "",
+      "defaultValue": 5557837.6976960795,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "revenue",
+      "metaData": {
+        "userData": "revenue"
+      },
+      "type": "Double",
+      "format": "0.000",
+      "units": "",
+      "description": "",
+      "defaultValue": 7861411.8169604344,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "utility",
+      "metaData": {
+        "userData": "utility"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 5557837.6976960795,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "DemandModelSurvey_Fall2024.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"DemandModelSurvey_Fall2024.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "DemandModelSurvey_Fall2024.xlsx"
+  }
+}

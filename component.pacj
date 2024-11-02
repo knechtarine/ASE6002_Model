@@ -1,0 +1,344 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerRun",
+  "requires": [],
+  "inputs": [],
+  "outputs": [],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/COMMIT_EDITMSG"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/config"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/description"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/HEAD"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/applypatch-msg.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/commit-msg.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/fsmonitor-watchman.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/post-update.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-applypatch.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-commit.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-merge-commit.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/prepare-commit-msg.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-push.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-rebase.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/pre-receive.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/push-to-checkout.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/sendemail-validate.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/hooks/update.sample"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/index"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/info/exclude"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/logs/HEAD"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/logs/refs/heads/main"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/logs/refs/remotes/origin/main"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/02/82878807a210ffa956c94bbcbf1437ad94924d"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/07/c730044f8ea984023c206556dbc4c73c0e430a"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/13/683f84f09a3c54b263564877bfc83ec60b36ec"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/13/fff0a726f27409b79344b27e294bbb6fda0690"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/15/34c4138ba7f3080f0db3268831c4b393ff2c86"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/17/98e265efaff54291515febe565f3c96a79b82d"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/18/e2a12b69c1220f44df420e3da31e0d8de95f63"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/1a/d551d1e119c5794a50fd82c40563a6a520ca12"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/1a/d686e1013bca8177b238b22a32bcbce3ee1bbc"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/2c/92b0578a983b92416be6aaab46eac71af34003"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/35/e30b2122d7dac15ee010d028e5ab705663b49d"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/35/f7ca1fecb138e4970ca4302807ff48230fec12"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/3a/fe163d5a60bab25520ae10c67d3471e2f4c369"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/49/24a45694a5859a1638e5a6af8ab93597639a5c"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/4c/b71669b7e99765e6a8bd292171d9602f208ccb"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/5e/ca66abc1ae0eda4713c7e7786cda33870a6cd4"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/63/7c3fa38dd57985c14e95e9a7b4a84cf4c19f08"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/6a/35c5e78807535cfcecf95ff378f28a86c0b410"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/6e/b2bd10667c176c9eb94eb056531e3bca600386"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/71/3d1bd78b08403eb9d2a479b8500fb8605c3211"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/77/1c5237fc7dcae8c64d59720ab85b50b37a504c"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/8c/4c9f5364fd037b54c29af183b79dcc1d508114"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/90/76fe3225df79021fdf90de249583912ed1045a"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/9a/2b0c7900a372f9c79bb40cdbb813b878933d8c"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/a3/9db4654759fd19f1580bbd8f819efb5b3ed75d"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/ac/d8ec3032dc02567ceebbdf1ade61f29cd09c2a"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/b0/ff2dea93076729e7c1c1094ed0a4e4727cb1e2"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/b4/85f27bcd52eea17de91ed4ce1744c19f09e2c8"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/b7/884bfbd6924891f184f2daf8e0ec632d211e0b"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/b8/e34d0e34291d914077c37a639d5c5986e2daa8"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/ca/757fede20b77987dc5eaa93485b3d4325f8492"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/cb/b592bafcdfc24f5d753912c12de47b0549a036"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/d4/e89cdedf00edb04712eac61fa653d881d30f30"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/d5/ca6e2f12bb914be67ab5f4647f7c75a90c531c"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/d8/6b0c435c0e129878c7b50adccc4dd076af787f"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/da/ea76f9eceb782783cbe479fcbfd304cbcafeb6"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/dc/79964107e36499216c914ec403395076faf53f"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/e0/0e2fa3f5878d7a6a7482b2899a89681dcab7de"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/e0/1f22593a07e4c28ddecf482c926ac927d11f22"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/ed/95b32d7548a8c728430056aea01cbf7e36350e"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/ee/27292747dcfc6589b6469668602f0c5fec18c4"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/objects/fb/0f842331bce1e8f4f71dbde84a903e8018a3a2"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/refs/heads/main"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": ".git/refs/remotes/origin/main"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Calculations.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/46b15d77-e677-48f2-9e46-870ded1f3c75/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/69b9d55c-5500-4c52-a628-fc0e08d12fc4/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/8ebbfd26-a882-41d9-a04d-8e586d32af60/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/a9c4c32f-56ac-4111-bc79-e60b04ecbd47/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/Calculations.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/component.pacj"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In/script.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In1/46f76ac0-2b3b-482e-a212-25d1de32e592/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In1/690bd87b-fc2e-4d97-97e9-587fa45e0808/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In1/c080c302-488b-4383-b395-2a9379f717ea/component.log"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In1/component.pacj"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "Matlab Plug-In1/script.m"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "OriginalModel.pxcz"
+    },
+    {
+      "plugInIntegral": false,
+      "relativePath": "README.md"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {}
+}

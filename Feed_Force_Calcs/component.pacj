@@ -1,0 +1,73 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "Bar_Length",
+      "metaData": {
+        "userData": "Bar_Length"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 20.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Grip_Length",
+      "metaData": {
+        "userData": "Grip_Length"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 6.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Total_Weight",
+      "metaData": {
+        "userData": "Total_Weight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 7.5,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Feed_Force",
+      "metaData": {
+        "userData": "Feed_Force"
+      },
+      "type": "Double",
+      "format": "0.0",
+      "units": "",
+      "description": "",
+      "defaultValue": 57.226017460099996,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Feed Force Calc.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Feed Force Calc.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Feed Force Calc.xlsx"
+  }
+}
