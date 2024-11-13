@@ -4,9 +4,9 @@
   "requires": [],
   "inputs": [
     {
-      "name": "input1",
+      "name": "batteryCost",
       "metaData": {
-        "userData": "input1"
+        "userData": "batteryCost"
       },
       "type": "Double",
       "format": "General",
@@ -17,15 +17,54 @@
       "enumAliases": []
     },
     {
-      "name": "input2",
+      "name": "FactorySQFT",
       "metaData": {
-        "userData": "input2"
+        "userData": "FactorySQFT"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 40000.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "MachineryCost",
+      "metaData": {
+        "userData": "MachineryCost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.1,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "motorCost",
+      "metaData": {
+        "userData": "motorCost"
       },
       "type": "Double",
       "format": "General",
       "units": "",
       "description": "",
       "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "NumOfEmployees",
+      "metaData": {
+        "userData": "NumOfEmployees"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 10.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -57,6 +96,19 @@
     }
   ],
   "outputs": [
+    {
+      "name": "FixedCost",
+      "metaData": {
+        "userData": "FixedCost"
+      },
+      "type": "Double",
+      "format": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 4379600.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
     {
       "name": "varCost",
       "metaData": {

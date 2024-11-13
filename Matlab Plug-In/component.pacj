@@ -56,19 +56,6 @@
       "enumAliases": []
     },
     {
-      "name": "Pitch",
-      "metaData": {
-        "userData": "Pitch"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "mm",
-      "description": "",
-      "defaultValue": 9.525,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
       "name": "Sprocket_Drive_Teeth",
       "metaData": {
         "userData": "Sprocket_Drive_Teeth"
@@ -90,7 +77,7 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 3000.0,
+      "defaultValue": 200.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -104,6 +91,45 @@
       "units": "",
       "description": "",
       "defaultValue": 8.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Pitch",
+      "metaData": {
+        "userData": "Pitch"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "mm",
+      "description": "",
+      "defaultValue": 9.525,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "ChiselEfficiency",
+      "metaData": {
+        "userData": "FchEff"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "ChainEngagement",
+      "metaData": {
+        "userData": "ChainEngEff"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
     }
@@ -175,9 +201,9 @@
       "enumAliases": []
     },
     {
-      "name": "Motor_Torque",
+      "name": "Req_Motor_Torque",
       "metaData": {
-        "userData": "Motor_Torque"
+        "userData": "Req_Motor_Torque"
       },
       "type": "Double",
       "format": "",

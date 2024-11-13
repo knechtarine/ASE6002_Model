@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "Avg_Lift_Force",
+      "metaData": {
+        "userData": "Avg_Lift_Force"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 17.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "Bar_Length",
       "metaData": {
         "userData": "Bar_Length"
@@ -26,19 +39,6 @@
       "units": "",
       "description": "",
       "defaultValue": 6.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Total_Weight",
-      "metaData": {
-        "userData": "Total_Weight"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 7.5,
       "enumValues": [],
       "enumAliases": []
     }

@@ -1,8 +1,8 @@
-﻿%inputs
+﻿%inputs lol
 Feed_Force% = 20; %N
 MC_Wood% = 25; %moisture percentage
 Density_Wood% = 550; %kg/m^3
-Length% = 90; %mm
+Length% = 90; %mm; must be the same as the standard cut def
 Area = Length*Length; %mm^2
 Pitch% = 9.525; %mm
 Sprocket_Drive_Teeth% = 6;
@@ -36,6 +36,8 @@ Feed_Speed_Eqn =  Feed_Force == Coefficients(3,1)...
 
 Feed_Speed = round(solve(Feed_Speed_Eqn,x),5);
 Depth_of_Cut = round((Feed_Speed/Chain_Speed)*Pitch*S_tooth_spacing,5);
+ChainEngEff %Chain Engagement Efficiency Variability
+Depth_of_Cut = ChainEngEff * Depth_of_Cut;
 
 %if the solve above results in the depth of cut condition where b5 should 
 %be 0, then it needs to be recalculated again with that set to 0
@@ -98,14 +100,17 @@ else %fails condition so b5 set to 0
     +(Coefficients(2,8)*((Density_Wood-Density_Ave)*(Depth_of_Cut-Depth_Ave))),1);
 end
 
+FchEff %variability for chainForce efficiency
+
 %convert sym values to doubles to read easier
 Feed_Speed = double(Feed_Speed);
 Depth_of_Cut = double(Depth_of_Cut);
 Chain_Force = double(Chain_Force);
+Chain_Force = FchEff * Chain_Force;
 Cutting_Force = double(Cutting_Force);
 
 %With the chain force the required motor torque can be calculated
-Motor_Torque = ((Pitch/1000)*Sprocket_Drive_Teeth*Chain_Force)/pi;
+Req_Motor_Torque = ((Pitch/1000)*Sprocket_Drive_Teeth*Chain_Force)/pi;
 
 %cutting efficiency can be calculated as well - increases for larger wood
 %pieces, a square wood piece may be easiest to calculate

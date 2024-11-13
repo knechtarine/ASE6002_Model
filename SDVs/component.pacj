@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "sprocketRPM",
+      "metaData": {
+        "userData": "sprocketRPM"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "barLength",
       "metaData": {
         "userData": "barLength"
@@ -60,21 +73,6 @@
       "defaultValue": 0.05,
       "upperBound": 2.0,
       "lowerBound": 0.05,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "sprocketAngVel",
-      "metaData": {
-        "userData": "sprocketAngVel"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 200.0,
-      "upperBound": 400.0,
-      "lowerBound": 200.0,
       "enumValues": [],
       "enumAliases": []
     }
