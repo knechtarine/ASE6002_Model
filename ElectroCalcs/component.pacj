@@ -4,82 +4,95 @@
   "requires": [],
   "inputs": [
     {
-      "name": "Bar_Length",
+      "name": "batteryCapacity",
       "metaData": {
-        "userData": "Bar_Length"
+        "userData": "batteryCapacity"
       },
       "type": "Double",
       "format": "General",
       "units": "",
       "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 5.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "Battery_Weight",
+      "name": "batteryVoltage",
       "metaData": {
-        "userData": "Battery_Weight"
+        "userData": "batteryVoltage"
       },
       "type": "Double",
       "format": "General",
       "units": "",
       "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 36.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "Grip_Length",
+      "name": "motorTorque",
       "metaData": {
-        "userData": "Grip_Length"
+        "userData": "motorTorque"
       },
       "type": "Double",
       "format": "General",
       "units": "",
       "description": "",
-      "defaultValue": 0.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Motor_Weight",
-      "metaData": {
-        "userData": "Motor_Weight"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Sprocket_Weight",
-      "metaData": {
-        "userData": "Sprocket_Weight"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.5,
+      "defaultValue": 0.3,
       "enumValues": [],
       "enumAliases": []
     }
   ],
   "outputs": [
     {
-      "name": "Total_Weight",
+      "name": "batteryCost",
       "metaData": {
-        "userData": "Total_Weight"
+        "userData": "batteryCost"
       },
       "type": "Double",
       "format": "General",
       "units": "",
       "description": "",
-      "defaultValue": 8.7182,
+      "defaultValue": 184.7739,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "batteryWeight",
+      "metaData": {
+        "userData": "batteryWeight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.93025,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "motorPrice",
+      "metaData": {
+        "userData": "motorPrice"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 33.100699999999996,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "motorWeight",
+      "metaData": {
+        "userData": "motorWeight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.8372,
       "enumValues": [],
       "enumAliases": []
     }
@@ -87,13 +100,13 @@
   "instanceFiles": [
     {
       "plugInIntegral": false,
-      "relativePath": "Weights.xlsx"
+      "relativePath": "ElectroCalcs.xlsx"
     }
   ],
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"Weights.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":false,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
-    "FilePath": "Weights.xlsx"
+    "ExcelPlugInSettings": "{\"FilePath\":\"ElectroCalcs.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":false,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "ElectroCalcs.xlsx"
   }
 }
