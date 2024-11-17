@@ -1,5 +1,5 @@
 ﻿%comments for automatic ModelCenter import
-% variable: Length double input default=90 units=mm
+% variable: Length double input default=101.6 units=mm
 % variable: Pitch double input default=9.525 units=mm
 % variable: Sprocket_Drive_Teeth double input default=6
 % variable: Drive_Sprocket_RPM double input default=3000 units=RPM
@@ -16,6 +16,7 @@
 % variable: Lift_Force double input default=17 units=lbs
 % variable: BatteryVoltage double input default=36 units=V
 % variable: BatteryEfficiency double input default=1
+% variable: ChiselEff double input default=1
 % variable: Chain_Speed double output
 % variable: Feed_Speed double output
 % variable: Depth_of_Cut double output
@@ -50,7 +51,7 @@ Area = Length*Tooth_Width; %mm^2
 Engagement_Length = Bar_Length/2; %m
 EnergyAvailable = BatteryVoltage*BatteryCapacity*60*60; %J
 Coefficients = [109.56,-2.39,0.16,-0.62,264.83,62.77,-8.30,0.31;88.24,-2.20,0.15,-0.65,238.61,41.02,-6.68,0.30;43.03,-1.75,0.15,-0.33,131.68,98.63,-6.59,0.37];
-Gearbox_Ratio = 4;
+Gearbox_Ratio = 3.5;
 Gearbox_Efficiency = 0.95; %
 
 %set values all derived from data, have to stay same for equations to work
@@ -172,6 +173,7 @@ end
 %convert sym values to doubles to read easier, no rounding
 Feed_Speed = double(Feed_Speed);
 Depth_of_Cut = double(Depth_of_Cut);
+Chain_Force = Chain_Force*ChiselEff; %chisel efficiency
 Chain_Force = double(Chain_Force);
 Cutting_Force = double(Cutting_Force);
 

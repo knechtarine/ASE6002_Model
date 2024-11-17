@@ -12,14 +12,14 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 0.5,
+      "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
     }
   ],
   "outputs": [
     {
-      "name": "ChainEngagement",
+      "name": "CDF_MarketSize",
       "metaData": {
         "userData": "output"
       },
@@ -27,7 +27,7 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 0.689465420279172,
+      "defaultValue": 120000.0,
       "enumValues": [],
       "enumAliases": []
     }
@@ -35,13 +35,13 @@
   "instanceFiles": [
     {
       "plugInIntegral": false,
-      "relativePath": "SplineCDF_ChainEngagement_Narrow.xlsx"
+      "relativePath": "SplineCDF_Market_Size.xlsx"
     }
   ],
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_ChainEngagement_Narrow.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
-    "FilePath": "SplineCDF_ChainEngagement_Narrow.xlsx"
+    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_Market_Size.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "SplineCDF_Market_Size.xlsx"
   }
 }

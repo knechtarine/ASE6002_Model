@@ -19,7 +19,7 @@
   ],
   "outputs": [
     {
-      "name": "BatteryVoltage",
+      "name": "CDF_MoistureContent",
       "metaData": {
         "userData": "output"
       },
@@ -27,7 +27,7 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 60.0,
+      "defaultValue": 30.0,
       "enumValues": [],
       "enumAliases": []
     }
@@ -35,13 +35,13 @@
   "instanceFiles": [
     {
       "plugInIntegral": false,
-      "relativePath": "SplineCDF_BatteryVoltage_Narrow.xlsx"
+      "relativePath": "SplineCDF_MoistureContent.xlsx"
     }
   ],
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_BatteryVoltage_Narrow.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
-    "FilePath": "SplineCDF_BatteryVoltage_Narrow.xlsx"
+    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_MoistureContent.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "SplineCDF_MoistureContent.xlsx"
   }
 }

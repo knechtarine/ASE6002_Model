@@ -19,7 +19,7 @@
   ],
   "outputs": [
     {
-      "name": "ChainToothWidth",
+      "name": "CDF_BatteryEfficiency",
       "metaData": {
         "userData": "output"
       },
@@ -27,7 +27,7 @@
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 1.48,
+      "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
     }
@@ -35,13 +35,13 @@
   "instanceFiles": [
     {
       "plugInIntegral": false,
-      "relativePath": "SplineCDF_ChainToothWidth_Narrow.xlsx"
+      "relativePath": "SplineCDF_BatteryEfficiency.xlsx"
     }
   ],
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_ChainToothWidth_Narrow.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
-    "FilePath": "SplineCDF_ChainToothWidth_Narrow.xlsx"
+    "ExcelPlugInSettings": "{\"FilePath\":\"SplineCDF_BatteryEfficiency.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "SplineCDF_BatteryEfficiency.xlsx"
   }
 }

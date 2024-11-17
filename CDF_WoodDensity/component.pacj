@@ -19,7 +19,7 @@
   ],
   "outputs": [
     {
-      "name": "WoodDensity",
+      "name": "CDF_WoodDensity",
       "metaData": {
         "userData": "output"
       },

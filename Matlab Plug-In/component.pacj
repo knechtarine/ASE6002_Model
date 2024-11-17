@@ -9,9 +9,7 @@
         "userData": "Length"
       },
       "type": "Double",
-      "format": "",
       "units": "mm",
-      "description": "",
       "defaultValue": 90.0,
       "enumValues": [],
       "enumAliases": []
@@ -22,9 +20,7 @@
         "userData": "Pitch"
       },
       "type": "Double",
-      "format": "",
       "units": "mm",
-      "description": "",
       "defaultValue": 9.525,
       "enumValues": [],
       "enumAliases": []
@@ -35,9 +31,6 @@
         "userData": "Sprocket_Drive_Teeth"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 6.0,
       "enumValues": [],
       "enumAliases": []
@@ -48,9 +41,7 @@
         "userData": "Drive_Sprocket_RPM"
       },
       "type": "Double",
-      "format": "",
       "units": "RPM",
-      "description": "",
       "defaultValue": 3000.0,
       "enumValues": [],
       "enumAliases": []
@@ -61,9 +52,6 @@
         "userData": "S_tooth_spacing"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 8.0,
       "enumValues": [],
       "enumAliases": []
@@ -74,9 +62,7 @@
         "userData": "BatteryCapacity"
       },
       "type": "Double",
-      "format": "",
       "units": "Ah",
-      "description": "",
       "defaultValue": 4.0,
       "enumValues": [],
       "enumAliases": []
@@ -87,9 +73,7 @@
         "userData": "Feed_Force"
       },
       "type": "Double",
-      "format": "",
       "units": "N",
-      "description": "",
       "defaultValue": 20.0,
       "enumValues": [],
       "enumAliases": []
@@ -100,9 +84,7 @@
         "userData": "MC_Wood"
       },
       "type": "Double",
-      "format": "",
       "units": "%",
-      "description": "",
       "defaultValue": 25.0,
       "enumValues": [],
       "enumAliases": []
@@ -113,10 +95,8 @@
         "userData": "Bar_Length"
       },
       "type": "Double",
-      "format": "",
       "units": "m",
-      "description": "",
-      "defaultValue": 0.35,
+      "defaultValue": 35.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -126,10 +106,8 @@
         "userData": "Grip_Length"
       },
       "type": "Double",
-      "format": "",
       "units": "m",
-      "description": "",
-      "defaultValue": 0.15,
+      "defaultValue": 15.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -139,9 +117,7 @@
         "userData": "MotorTorque"
       },
       "type": "Double",
-      "format": "",
       "units": "N-m",
-      "description": "",
       "defaultValue": 1.2,
       "enumValues": [],
       "enumAliases": []
@@ -152,9 +128,7 @@
         "userData": "Density_Wood"
       },
       "type": "Double",
-      "format": "",
       "units": "kg/m^3",
-      "description": "",
       "defaultValue": 550.0,
       "enumValues": [],
       "enumAliases": []
@@ -165,9 +139,6 @@
         "userData": "ChainEngEff"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
@@ -178,9 +149,7 @@
         "userData": "Tooth_Width"
       },
       "type": "Double",
-      "format": "",
       "units": "mm",
-      "description": "",
       "defaultValue": 1.09,
       "enumValues": [],
       "enumAliases": []
@@ -191,9 +160,7 @@
         "userData": "Lift_Force"
       },
       "type": "Double",
-      "format": "",
       "units": "lbs",
-      "description": "",
       "defaultValue": 17.0,
       "enumValues": [],
       "enumAliases": []
@@ -204,9 +171,7 @@
         "userData": "BatteryVoltage"
       },
       "type": "Double",
-      "format": "",
       "units": "V",
-      "description": "",
       "defaultValue": 36.0,
       "enumValues": [],
       "enumAliases": []
@@ -217,9 +182,16 @@
         "userData": "BatteryEfficiency"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "ChiselEff",
+      "metaData": {
+        "userData": "ChiselEff"
+      },
+      "type": "Double",
       "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
@@ -232,9 +204,6 @@
         "userData": "Chain_Speed"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -245,9 +214,6 @@
         "userData": "Feed_Speed"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -258,9 +224,6 @@
         "userData": "Depth_of_Cut"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -271,9 +234,6 @@
         "userData": "Cutting_Force"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -284,9 +244,6 @@
         "userData": "Chain_Force"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -297,9 +254,6 @@
         "userData": "Req_Motor_Torque"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -310,9 +264,6 @@
         "userData": "Cutting_Efficiency"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -323,9 +274,6 @@
         "userData": "time_of_cut"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -336,9 +284,6 @@
         "userData": "Number_of_Cuts"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
