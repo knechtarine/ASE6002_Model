@@ -9,10 +9,10 @@
         "userData": "sprocketRPM"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 0.0,
+      "defaultValue": 3000.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -22,12 +22,10 @@
         "userData": "barLength"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 30.0,
-      "upperBound": 50.0,
-      "lowerBound": 30.0,
+      "defaultValue": 0.4,
       "enumValues": [],
       "enumAliases": []
     },
@@ -37,10 +35,10 @@
         "userData": "batteryCapacity"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 4.0,
+      "defaultValue": 9.0,
       "upperBound": 12.0,
       "lowerBound": 4.0,
       "enumValues": [],
@@ -52,12 +50,10 @@
         "userData": "gripLength"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 10.0,
-      "upperBound": 20.0,
-      "lowerBound": 10.0,
+      "defaultValue": 0.15,
       "enumValues": [],
       "enumAliases": []
     },
@@ -67,10 +63,10 @@
         "userData": "motorTorque"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 0.05,
+      "defaultValue": 1.0,
       "upperBound": 2.0,
       "lowerBound": 0.05,
       "enumValues": [],
