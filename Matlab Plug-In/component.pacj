@@ -4,54 +4,24 @@
   "requires": [],
   "inputs": [
     {
-      "name": "Feed_Force",
-      "metaData": {
-        "userData": "Feed_Force"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "Newtons",
-      "description": "",
-      "defaultValue": 20.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "MC_Wood",
-      "metaData": {
-        "userData": "MC_Wood"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "Moisture Percentage",
-      "description": "",
-      "defaultValue": 25.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Density_Wood",
-      "metaData": {
-        "userData": "Density_Wood"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "kg/m^3",
-      "description": "",
-      "defaultValue": 550.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
       "name": "Length",
       "metaData": {
         "userData": "Length"
       },
       "type": "Double",
-      "format": "",
       "units": "mm",
-      "description": "",
       "defaultValue": 90.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Pitch",
+      "metaData": {
+        "userData": "Pitch"
+      },
+      "type": "Double",
+      "units": "mm",
+      "defaultValue": 9.525,
       "enumValues": [],
       "enumAliases": []
     },
@@ -61,9 +31,6 @@
         "userData": "Sprocket_Drive_Teeth"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 6.0,
       "enumValues": [],
       "enumAliases": []
@@ -74,10 +41,8 @@
         "userData": "Drive_Sprocket_RPM"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 200.0,
+      "units": "RPM",
+      "defaultValue": 3000.0,
       "enumValues": [],
       "enumAliases": []
     },
@@ -87,48 +52,146 @@
         "userData": "S_tooth_spacing"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 8.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "Pitch",
+      "name": "BatteryCapacity",
       "metaData": {
-        "userData": "Pitch"
+        "userData": "BatteryCapacity"
       },
       "type": "Double",
-      "format": "",
-      "units": "mm",
-      "description": "",
-      "defaultValue": 9.525,
+      "units": "Ah",
+      "defaultValue": 4.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "ChiselEfficiency",
+      "name": "Feed_Force",
       "metaData": {
-        "userData": "FchEff"
+        "userData": "Feed_Force"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
+      "units": "N",
+      "defaultValue": 20.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "MC_Wood",
+      "metaData": {
+        "userData": "MC_Wood"
+      },
+      "type": "Double",
+      "units": "%",
+      "defaultValue": 25.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Bar_Length",
+      "metaData": {
+        "userData": "Bar_Length"
+      },
+      "type": "Double",
+      "units": "m",
+      "defaultValue": 35.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Grip_Length",
+      "metaData": {
+        "userData": "Grip_Length"
+      },
+      "type": "Double",
+      "units": "m",
+      "defaultValue": 15.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "MotorTorque",
+      "metaData": {
+        "userData": "MotorTorque"
+      },
+      "type": "Double",
+      "units": "N-m",
+      "defaultValue": 1.2,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Density_Wood",
+      "metaData": {
+        "userData": "Density_Wood"
+      },
+      "type": "Double",
+      "units": "kg/m^3",
+      "defaultValue": 550.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "ChainEngEff",
+      "metaData": {
+        "userData": "ChainEngEff"
+      },
+      "type": "Double",
       "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "ChainEngagement",
+      "name": "Tooth_Width",
       "metaData": {
-        "userData": "ChainEngEff"
+        "userData": "Tooth_Width"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
+      "units": "mm",
+      "defaultValue": 1.09,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Lift_Force",
+      "metaData": {
+        "userData": "Lift_Force"
+      },
+      "type": "Double",
+      "units": "lbs",
+      "defaultValue": 17.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "BatteryVoltage",
+      "metaData": {
+        "userData": "BatteryVoltage"
+      },
+      "type": "Double",
+      "units": "V",
+      "defaultValue": 36.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "BatteryEfficiency",
+      "metaData": {
+        "userData": "BatteryEfficiency"
+      },
+      "type": "Double",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "ChiselEff",
+      "metaData": {
+        "userData": "ChiselEff"
+      },
+      "type": "Double",
       "defaultValue": 1.0,
       "enumValues": [],
       "enumAliases": []
@@ -141,9 +204,6 @@
         "userData": "Chain_Speed"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -154,9 +214,6 @@
         "userData": "Feed_Speed"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -167,9 +224,6 @@
         "userData": "Depth_of_Cut"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -180,9 +234,6 @@
         "userData": "Cutting_Force"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -193,9 +244,6 @@
         "userData": "Chain_Force"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -206,9 +254,6 @@
         "userData": "Req_Motor_Torque"
       },
       "type": "Double",
-      "format": "",
-      "units": "Nm",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -219,9 +264,6 @@
         "userData": "Cutting_Efficiency"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
@@ -232,22 +274,16 @@
         "userData": "time_of_cut"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
     },
     {
-      "name": "Cutting_Energy_Required",
+      "name": "Number_of_Cuts",
       "metaData": {
-        "userData": "Cutting_Energy_Required"
+        "userData": "Number_of_Cuts"
       },
       "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
