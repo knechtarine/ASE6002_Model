@@ -192,7 +192,8 @@ time_of_cut = (Length/1000)/Feed_Speed; %remained the same
 
 MotorW = Drive_Sprocket_w*Gearbox_Ratio;
 WorkMotor = Req_Motor_Torque*MotorW*time_of_cut;
-MotorEfficiencyRatio = Req_Motor_Torque/MotorTorque; %new motor eff, no longer tri distr
-MotorEfficiency = (-1.521*MotorEfficiencyRatio^2)+(1.9801*MotorEfficiencyRatio)+0.1309;
-MotorEnergyRequired = WorkMotor/MotorEfficiency;
+MotorEfficiencyRatioTorque = Req_Motor_Torque/MotorTorque; %new motor eff, no longer tri distr
+MotorEfficiencyTorque = (-1.521*MotorEfficiencyRatioTorque^2)+(1.9801*MotorEfficiencyRatioTorque)+0.1309;
+MotorEfficiencyRPM = (-7.08722426400E-11*Drive_Sprocket_RPM^3)+(3.67910058414E-07*Drive_Sprocket_RPM^2)+(-3.44053163761E-04*Drive_Sprocket_RPM)+(4.89423113119E-01);
+MotorEnergyRequired = WorkMotor/(MotorEfficiencyTorque*MotorEfficiencyRPM);
 Number_of_Cuts = EnergyAvailable/MotorEnergyRequired; %this is the new cut num
